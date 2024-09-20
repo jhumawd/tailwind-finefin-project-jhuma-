@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: jost;
+}
+
+
+.card{
+    overflow: visible;
+    transition: transform 0.8s ease-in-out;
+       
+}
+
+.card:hover{
+    transform: scale(1.1);
+   
+  
+}
+
+.bg_img{
+    background-image: url(/img/bg.png);
+    /* background-position: center center; */
+    /* background-size: cover; */
+}
